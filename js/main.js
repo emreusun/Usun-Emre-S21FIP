@@ -45,7 +45,7 @@
 
 
           beerName.textContent = `Beer ${beerData[targetIndex] [0]} `;
-          beerInfo.textContent = houseData[targetIndex][1];
+          beerInfo.textContent = beerData[targetIndex][1];
         }
 
        })();
